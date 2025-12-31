@@ -5,6 +5,7 @@ const https = require("https");
 const { KiteTicker } = require("kiteconnect");
 
 //node server.js
+// /node rewrite-instruments-data.js .env
 const app = express();
 app.use(cors({ origin: "http://localhost:4200" })); // allow Angular dev
 app.use(express.json());
